@@ -2,8 +2,10 @@
 	A demo social media web app.
 
 # Setting Up
+	Create a Virtual environment and name it, as it will be your project dir
 	Fork this Repository into the virtual environment directory.
 	'requirements.txt' contains all the needed packages for the project.
+	Install the packages in 'requirements.txt' with 'pip install -r'
 	Start/activate your virtual environment 'flask_env' with the bash script 'startvm'
 	You can stop the virtual machine using the command 'deactivate'
 	Run the 'Run.py' file to start up flask on your local machine and access the website
