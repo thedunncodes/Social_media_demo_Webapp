@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+    <h1>About page</h1>
+    <h3>
+        Citizen files
+    </h3>
+    {% for person in posts %}
+        <article class="media content-section">
+            <div class="media-body">
+                <div class="article-metadata">
+                    <a class="mr-2" href="#">{{ person.Name }}</a>
+                    <small class="text-muted">{{ person.DOB }}</small>
+                </div>
+                <h2><a class="article-title" href="#">{{ person.Address }}</a></h2>
+                <p class="article-content">{{ person.possession }}</p>
+            </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask_blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>About Page</div>
+</body>
+
+</html> -->

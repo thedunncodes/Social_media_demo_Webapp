@@ -1,0 +1,3 @@
+#!/bin/bash
+
+code flaskblog/templates/about.html flaskblog/templates/index.html flaskblog/templates/post.html flaskblog/templates/reset_request.html flaskblog/templates/reset_token.html flaskblog/templates/user_posts.html flaskblog/templates/layout.html flaskblog/templates/login.html flaskblog/templates/register.html flaskblog/templates/create_post.html flaskblog/templates/account.html flaskblog/static/main.css flaskblog/forms.py Run.py flaskblog/__init__.py  flaskblog/modules/models.py flaskblog/routes.py 
