@@ -1,3 +1,4 @@
-#!/bin/bash
-
-. flask_env/bin/activate
+#!/usr/bin/env bash
+# This starts up the virtual environment
+# It Takes your virtual environment name as argument
+. "$1"/bin/activate
